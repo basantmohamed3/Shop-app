@@ -1,0 +1,118 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold");
+
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing 
+	box-sizing: border-box;
+
+
+
+}
+body {
+	background-image: url("../images/bg.png");
+}
+
+.main {
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+		background-color:white;
+	margin-top:20px;
+	border-radius: 5px;
+
+}
+.firstContainer {
+	background-color:red;
+	height:40px;
+	display:flex;
+}
+
+ul{
+	margin: 0px;
+	padding:0px;
+
+}
+ul li{
+	
+	list-style-type: ;
+	display:inline;
+
+}
+
+.pullRight {
+	text-align: right;
+	
+[alt] {
+	margin:10px;
+}
+/*
+.pull-right div{
+	float:right;
+}
+
+
+/*product-detail*/
+.col-lg-3 {
+	border: 2px solid blue;
+}
+
+		
+#nav-1 {
+	text-transform: capitalize;
+	height:60px;
+	background-color:gray;
+	
+
+}
+
+
+
+input {
+	min-width: 300px;
+	border-radius: 15px;
+	margin: 10px 0 7px 0px;
+}
+
+#nav-2:{
+	text-transform: uppercase;
+	height:45px;
+	background-color: cyan;
+
+}
+#second-nav {
+		border-bottom:5px solid orange;
+}
+#logo {
+	width:193px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+
+
+
+h5 {
+	text-transform: uppercase;
+
+}
+#section-2 {
+	display:flex;
+}
+
+
+
+}
+div img {
+	width:100%;
+	margin:10px 10px 10px 10px ;
+}
+#section-2 img:hover {
+	
+	border: 1px black solid;
+}
+
+#section-2 {
+	margin:10px;
+}
+
+*/

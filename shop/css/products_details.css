@@ -1,0 +1,12 @@
+
+
+label[href^="text"] {
+	padding-right: 0px;
+}
+
+p #price {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+

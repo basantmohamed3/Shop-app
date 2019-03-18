@@ -1,0 +1,77 @@
+body{
+
+background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+input {
+	width:100%;
+}
+
+ul {
+		padding-left: 0px;
+}
+
+input {
+	border:3px solid rgb(0,0,0,0);
+}
+
+
+
+.todo-list {
+	width:200px;
+	border: 2px solid white;
+	margin:150px auto;
+	background-color: white;
+
+}
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+h4{
+	color:white;
+	background-color: #3399FF;
+	position: relative;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+
+h4 .fas {
+	float:right;
+	
+}
+
+
+li span {
+	display: inline-block;
+	color:white;
+	background-color: red;
+	height:40px;
+	width:00px;
+	margin-right: 20px;
+	text-align: center;
+	opacity: 0;
+}
+
+li:hover span {
+	
+		background-color: red;
+width:40px;
+transition: 0.2s linear;
+opacity: 1;
+}
+
+.completed {
+	color:gray;
+	text-decoration: line-through;
+}
+
